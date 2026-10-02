@@ -1,6 +1,6 @@
 import { getAuthHeaders } from "./auth";
-// const API_URL = import.meta.env.VITE_API_URL;
-import { API_URL } from "./api";
+const API_URL = import.meta.env.VITE_API_URL;
+// import { API_URL } from "./api";
 import { fetchWithRefresh } from "./authService";
 // export const loadUsers = async (page) => {
 
